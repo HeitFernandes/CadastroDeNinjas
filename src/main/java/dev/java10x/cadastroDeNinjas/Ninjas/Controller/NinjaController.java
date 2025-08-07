@@ -1,4 +1,4 @@
-package dev.java10x.cadastroDeNinjas;
+package dev.java10x.cadastroDeNinjas.Ninjas.Controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController // usando a anotation para tornar esta classe um controller(intermedia usuario para banco de dados), no momento apenas para o usuario.
 @RequestMapping
-public class Controller {
+public class NinjaController {
 
     @GetMapping("/boasvindas") // para passar a rota
     public String boasvindas(){
