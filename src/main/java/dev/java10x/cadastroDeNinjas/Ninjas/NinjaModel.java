@@ -4,7 +4,7 @@ package dev.java10x.cadastroDeNinjas.Ninjas;
 import dev.java10x.cadastroDeNinjas.Missoes.MissoesModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Data; // lombok trabalha com getter e setter, ajuda em construtor.
 import lombok.NoArgsConstructor;
 
 
