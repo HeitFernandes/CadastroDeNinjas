@@ -1,4 +1,4 @@
-package dev.java10x.cadastroDeNinjas.Ninjas.NinjaModel;
+package dev.java10x.cadastroDeNinjas.Ninjas;
 // TODO = Vamos tornar esta classe em uma entidade para o banco de dados.
 
 import dev.java10x.cadastroDeNinjas.Missoes.MissoesModel;

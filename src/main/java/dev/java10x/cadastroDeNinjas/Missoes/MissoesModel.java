@@ -1,6 +1,6 @@
 package dev.java10x.cadastroDeNinjas.Missoes;
 
-import dev.java10x.cadastroDeNinjas.Ninjas.NinjaModel.NinjaModel;
+import dev.java10x.cadastroDeNinjas.Ninjas.NinjaModel;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,7 +10,7 @@ import java.util.List;
 
 @Entity
 @Table(name = "tb_missoes")
-@Data
+@Data // add getters e setters !!!
 @NoArgsConstructor
 @AllArgsConstructor
 public class MissoesModel {
